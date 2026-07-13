@@ -1,0 +1,27 @@
+#photoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Hack;
+}
+
+@font-face {
+    font-family: Hack;
+    src: url("./Hack/HackNerdFont-Regular.ttf");
+}
+
+@font-face {
+    font-family: Agave;
+    src: url("./Agave/AgaveNerdFont-Regular.ttf");
+}
+
+.gridImage {
+    max-width: 100%;
+    margin: 4.5px 0;
+}
