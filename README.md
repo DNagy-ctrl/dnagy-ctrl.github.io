@@ -1,1 +1,1 @@
-# DNagy-ctrl.github.io
+# dnagy-ctrl.github.io
