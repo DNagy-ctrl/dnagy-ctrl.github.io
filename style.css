@@ -259,7 +259,7 @@ main p{
 */
 
 #headshot{
-    max-width:200px;
+    max-width:300px;
     margin-top: 20px;
     margin-bottom: 7px;
 }
@@ -306,35 +306,17 @@ First gallery attempt
 
 
 .gallery{
-    margin-top: 2 rem;
+    margin-top: 2rem;
 }
 
 .gallery > div{
-    columns:4;
+    columns:5 175px;
     gap:1rem;
     padding-top: 1.25rem;
 }
 
 .gallery img{
-    display: block;
+    display: inline-block;
     width: 100%;
-    margin-bottom: 1.25rem;
-}
-
-@media(max-width: 56rem){
-    .gallery > div{
-        columns: 3;
-    }
-}
-
-@media(max-width: 48rem){
-    .gallery > div{
-        columns: 2;
-    }
-}
-
-@media(max-width: 40rem){
-    .gallery > div{
-        columns: 1;
-    }
+    /* margin-bottom: 1.25rem; */
 }
